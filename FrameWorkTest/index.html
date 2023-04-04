@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css.map">
+    <title>Log in</title>
+</head>
+<style>
+    body{
+        margin: 0 auto;
+        width: 40%;
+        padding: 10%;
+    }
+    input{
+        margin-top: 10px;
+    }
+    .btn{
+        width: 100%;
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <div class="col-mb-3 zone" align="center">
+        <form action="Connexion" method="get">
+            <input type="text" name="user" placeholder="User" class="form-control" required>
+            <input type="password" name="password" placeholder="Password" class="form-control" required>
+            <input type="submit" value="Connexion" name="Connect" class="btn btn-primary">
+        </form>
+    </div>
+        <a href="inscription.jsp" class="">
+            <div class="btn btn-secondary">
+                S'inscrire
+            </div>
+        </a>
+        <a href="ListeCouple" class="">
+            <div class="btn btn-info">
+                Afficher Liste
+            </div>
+        </a>
+</body>
+</html>
