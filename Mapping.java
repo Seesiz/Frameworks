@@ -1,4 +1,4 @@
-package etu1932.framework.servlet;
+package etu1932.framework;
 public class Mapping{
     String className;
     String method;
@@ -15,5 +15,8 @@ public class Mapping{
         return method;
     }
 
-    public Mapping(){}
+    public Mapping(String cN, String method){
+        setClassName(cN);
+        setMethod(method);
+    }
 }
